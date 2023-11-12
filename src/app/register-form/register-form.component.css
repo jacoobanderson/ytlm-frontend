@@ -1,0 +1,54 @@
+.container {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container h1 {
+    color: var(--main-purple);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-container {
+    width: 300px;
+}
+
+#registration-form {
+    display: flex;
+    flex-direction: column;
+    color: var(--main-purple);
+    row-gap: 1rem;
+}
+
+#registration-form input {
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 1px solid var(--main-purple);
+    padding: 0.75rem;
+}
+
+#registration-form input[type="submit"] {
+    background-color: var(--main-purple);
+    color: white;
+    margin-top: 1rem;
+}
+
+.login-redirect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
+.login-redirect p, a {
+    font-size: 0.85rem;
+}
+
+.login-redirect a {
+    text-decoration:none;
+    color: var(--main-purple);
+}
